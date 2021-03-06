@@ -1,0 +1,73 @@
+
+body{
+    background-image:linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url("https://thewritelife.com/wp-content/uploads/2014/08/writer-websites.jpg");
+    background-size:cover;
+}
+.container{
+    background-color:rgb(15, 15, 15,0.9);
+    width:450px;
+    height:500px;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    flex-direction: column;
+    margin-top:160px;
+    color:white;
+    border-radius:25px;
+}
+.logodiv{
+    background-color:rgb(223, 50, 122);
+    margin:auto;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    position:absolute;
+    top:100px;
+    left:0;
+    right:0;
+}
+#logo{
+    color:black;
+    font-size:50px;
+    margin:20px;
+}
+.details{
+    width:100%;
+    
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.548);
+    opacity: 1; /* Firefox */
+    font-size:20px;
+  }
+.details input{
+    width:350px;
+    height:35px;
+    margin:10px;
+    font-size:20px;
+    background-color:transparent;
+    border:none;
+    outline:none;
+    border-bottom:2px solid white;
+    color:white;
+}
+
+#submit{
+    background-color:rgb(223, 50, 122);
+    width:140px;
+    height:40px;
+    border-radius: 25px;
+    color:white;
+    margin-top:40px;
+    outline:none;border:none;
+    cursor:pointer;
+}
+#createOne a{
+    text-decoration:none;
+    color:rgb(223, 50, 122);
+    font-size:20px;
+}
+#createOne{
+    font-size:17px;
+}
