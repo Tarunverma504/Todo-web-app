@@ -1,0 +1,28 @@
+<htm>
+    <head>
+        <title>Signup</title>
+        <meta charset="UTF-8"/>
+        <meat name="viewport" content="width=device-width, intial-scale=0.2"/>
+        <link rel="stylesheet" href="/css/style.css"/>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    </head>
+    <body>
+        <div class="container">
+              <div class="logodiv">
+                <i class="fas fa-user" id="logo" ></i>
+              </div>
+              <form action="/register" method="post">
+                  <div class="details"><input type="text" name="username" placeholder="Username"></div>
+                  <div class="details"><input type="email" name="email" placeholder="Email"></div>
+                  <div class="details"><input type="password"  name="password" placeholder="Password"></div>
+                  <div class="details"><input type="password" name="cpassword" placeholder="Confirm Password"></div>
+                  <small style="color:red"><%= warning2 %></small>
+
+                  <div class="details"><button id="submit" type="submit">SignUp</button></div>
+                  
+              </form>
+              <p id="createOne">Already have account? <a href="/" >Login Here</a> </p>
+                 
+        </div>
+    </body>
+</htm>
