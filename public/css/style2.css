@@ -19,7 +19,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height:45vh;
+    overflow: hidden;
+    
 }
+
 .todo{
     width:400px;
 }
@@ -49,8 +53,15 @@ body{
 
 .todo-container ul{
     list-style:none;
+    overflow: auto;
+    
 }
-
+.todo-list-div{
+    margin-top:2vh;
+    
+    overflow:auto;
+    height:30vh;
+}
 .todo-list-item{
     padding:10px;
     margin:10px;
@@ -114,3 +125,19 @@ body{
     cursor:pointer;
     text-decoration: none;
 }
+
+.todo-list-div::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+.todo-list-div::-webkit-scrollbar-track {
+    background: orange;        /* color of the tracking area */
+    background: rgba(255, 255, 255, 0.274);
+
+  }
+  
+.todo-list-div::-webkit-scrollbar-thumb {
+    background-color: blue;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid orange;  /* creates padding around scroll thumb */
+  }
